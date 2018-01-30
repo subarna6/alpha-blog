@@ -50,5 +50,4 @@ group :production
 
 gem 'pg'
 gem 'rails_12factors'
-gem 
 end 
