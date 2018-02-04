@@ -1,0 +1,22 @@
+
+<h2>SIGNUP PAGE FOR ALPHA BLOG</h2>
+
+<%= form_for @user do |f| %>
+<p>
+ <%= f.label :username %> <br/>
+ <%= f.text_field :username %>
+</p>
+<p>
+  <%= f.label :email %> <br/>
+  <%= f.email_field :email %>
+</p>
+<p>
+  <%= f.label :password %> <br/>
+  <%= f.password_field :password %>
+</p>
+<p>
+  <%= f.submit "SIGN UP" %>
+</p>
+<% end %>
+
+<%= link_to 'Back to article listing.', articles_path %>
